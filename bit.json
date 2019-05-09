@@ -1,5 +1,9 @@
 {
     "env": {},
     "componentsDefaultDirectory": "components/{name}",
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "overrides": {
+        "jcmagsay.models/bananamodel": {},
+        "jcmagsay.models/fruitmodel": {}
+    }
 }
