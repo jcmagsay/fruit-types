@@ -2,7 +2,7 @@ import { Fruit } from "./fruit.model";
 
 export class Banana extends Fruit {
   constructor() {
-    super(this.constructor.name, "yellow");
+    super(this.constructor.name, "yellow", "medium");
   }
 
   peel() {
